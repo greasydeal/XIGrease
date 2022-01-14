@@ -6,7 +6,7 @@ _addon_description = 'Connects player to monitoring services.'
 local socket = require("socket")
 
 local port = 33420
-local ip = "74.206.40.95"
+local ip = "localhost"
 local tcp = assert(socket.tcp())
 
 ashita.register_event('load', function()
